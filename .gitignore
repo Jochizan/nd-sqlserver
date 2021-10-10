@@ -1,0 +1,18 @@
+# yarn modules
+node_modules
+
+# enviroments variables
+.env
+.env.local
+.env.production
+
+# compile files
+dist
+build
+
+# config files
+docker-compose.override.yml
+.vscode
+.idea
+.vim
+.vs
