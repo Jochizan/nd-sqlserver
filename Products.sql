@@ -7,7 +7,7 @@ CREATE TABLE Products
 );
 
 INSERT INTO Products
-  (name, description, quantity)
+  ( name, description, quantity)
 VALUES
   ('laptop', 'lenovo laptop i5', 10),
   ('mouse Ryzer', 'gaming mouse', 15);

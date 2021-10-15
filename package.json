@@ -4,9 +4,9 @@
   "description": "Server application with express and sql server",
   "main": "src/index.ts",
   "scripts": {
-    "start": "node dist/",
+    "start": "node build/",
     "dev": "tsc-watch --onSuccess \"yarn start\"",
-    "build": "babel src -d dist --extensions .ts"
+    "build": "babel src -d build --extensions .ts"
   },
   "keywords": [
     "typescript",
@@ -19,6 +19,7 @@
   "author": "Jochizan <remnyachizot2015@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.8",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
@@ -36,6 +37,7 @@
     "@types/morgan": "^1.9.3",
     "@types/mssql": "^7.1.3",
     "@types/node": "^16.10.3",
+    "babel-preset-minify": "^0.5.1",
     "tsc-watch": "^4.5.0",
     "typescript": "^4.4.3"
   }
